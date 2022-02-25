@@ -1,0 +1,22 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  pigo-faceblur:
+    lang: go
+    handler: ./pigo-openfaas-faceblur
+    image: mbilalce/face-blur:latest
+    environment:
+      input_mode: "url"
+      output_mode: "image"
+      content_type: "image/jpeg"
+      read_timeout: 600s
+      write_timeout: 600s
+      exec_timeout: 600s
+    labels:
+      com.openfaas.scale.zero: "false"
+    limits: 
+      memory: 3412Mi
+      cpu: 1750m
+

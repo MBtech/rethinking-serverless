@@ -1,0 +1,16 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  transcode:
+    lang: python3
+    handler: ./transcode
+    image: mbilalce/transcode:latest
+    environment:
+      read_timeout: "600s"
+      write_timeout: "600s"
+      exec_timeout: "600s"
+    limits: 
+      memory: 2048Mi
+      cpu: 250m

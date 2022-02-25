@@ -1,0 +1,4 @@
+template
+build
+__pycache__
+*.pyc

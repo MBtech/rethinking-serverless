@@ -1,0 +1,17 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  linpack:
+    lang: python3
+    handler: ./linpack
+    image: mbilalce/linpack:latest
+    environment:
+      read_timeout: 600s
+      write_timeout: 600s
+      exec_timeout: 600s
+    limits: 
+      memory: 3412Mi
+      cpu: 2000m
+

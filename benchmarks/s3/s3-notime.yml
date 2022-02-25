@@ -1,0 +1,17 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  s3-notime:
+    lang: python3
+    handler: ./s3
+    image: mbilalce/openfaas-s3:latest
+    environment:
+      read_timeout: 600s
+      write_timeout: 600s
+      exec_timeout: 600s
+    limits: 
+      memory: 128Mi
+      cpu: 1000m
+

@@ -1,0 +1,1 @@
+Based on function from [FunctionBench Serverless benchmark](https://github.com/kmu-bigdata/serverless-faas-workbench)

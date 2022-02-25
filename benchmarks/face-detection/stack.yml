@@ -1,0 +1,19 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  pigo-face-detector:
+    lang: go
+    handler: ./pigo-openfaas
+    image: mbilalce/face-detection:latest
+    environment:
+      input_mode: "url"
+      output_mode: "image"
+      read_timeout: 600s
+      write_timeout: 600s
+      exec_timeout: 600s
+      
+    limits: 
+      memory: 3412Mi
+      cpu: 1750m

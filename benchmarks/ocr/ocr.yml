@@ -1,0 +1,17 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  openfaas-ocr:
+    lang: python3
+    handler: ./openfaas-ocr
+    # image: viveksyngh/openfaas-ocr:0.3.0
+    image: mbilalce/ocr:0.1.0
+    environment:
+      read_timeout: 600s
+      write_timeout: 600s
+      exec_timeout: 600s
+    limits: 
+      memory: 256Mi
+      cpu: 2000m
