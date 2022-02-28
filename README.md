@@ -8,4 +8,4 @@ The artifacts contained in this repo are:
 1. Serverless benchmarks (`benchmarks` directory)
 2. Input data for the benchmarks (`input` directory)
 3. Performance data (`data` directory)
-4. Analysis scripts and data (`analysis` directory)
+4. Optimization code, analysis scripts and data (`analysis` directory)
