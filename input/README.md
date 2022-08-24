@@ -5,6 +5,8 @@ This directory contains the input data used for different serverless application
 2. `ocr` contains images used for `ocr` application
 3. `videos` contains videos used for `transcode` and `s3` applications
 
+**Note**: For Linpack we simply use the input matrix size so there is no input data file for it
+
 ## Default data 
 The research uses one input as a default (representative) for the analysis. 
 Following are the default inputs for each type of data:
