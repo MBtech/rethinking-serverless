@@ -3,7 +3,7 @@ This directory contains the scripts and notebooks used for optimization and anal
 
 `optimizer` contains the optimization algorithms. For the analysis in the research paper we have only used bayesian optimization in `boskopt.py`
 
-Running the optimizers or doing analysis on the data can take a while (5-30mins+), therefore the jupyter notebooks store the data from the analysis in CSV files so that the data can be loaded and plotted by parts of the notebooks without having to run the whole notebook again. 
+Running the optimizers or doing analysis on the data can take a while (30mins+), therefore the jupyter notebooks store the data from the analysis in CSV files so that the data can be loaded and plotted by parts of the notebooks without having to run the whole notebook again. 
 
 ## Pre-requisites:
 1. Have a setup to run python notebooks. I have used VScode with Jupyter extension that also prompts for missing dependencies to run notebooks
