@@ -18,8 +18,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Create an `analysis_data` directory under `analysis` folder. This is where the jupyter notebooks store the analysis data. 
-`cd analysis && mkdir -p analysis_data`
+2. Create an `analysis_data` and `plots` directory under `analysis` folder. This is where the jupyter notebooks store the analysis data. 
+`cd analysis && mkdir -p analysis_data && mkdir -p plots`
 
 
 ## Notebooks:
@@ -29,3 +29,6 @@ The following notebooks are available. See each notebook for information about t
 3. `optimization-across-data.ipynb`: contains evaluation of optimization across different input data. 
 4. `hierarchical-mo.ipynb`: contains the script to performance hierarchical multi-objective optimization and plot the results.
 5. `multi-objective.ipynb`: contains the script to performance weighted multi-objective optimization and plot the results.
+6. `optimization-analysis-notebook.ipynb`: contains code to running optimization algorithms on the benchmarking data from different serverless applications
+7. `pareto-front.ipynb`: contains the script to create actual and predicted pareto fronts and plot the results.
+8. `cost-benefit-alternatives.ipynb`: contains the script to provide cost benefit when using alternative choices to the absolute best configuration. 
