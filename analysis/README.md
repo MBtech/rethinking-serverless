@@ -26,3 +26,4 @@ pip install -r requirements.txt
 The following notebooks are available. See each notebook for information about the code available in the notebook:
 1. `decoupled-vs-default.ipynb`: contains the comparison of the best configurations found with different resource allocation strategies i.e. proportional CPU strategy, Fixed CPU strategy, Decoupled and Decoupled(m5)
 2. `hierarchical-mo.ipynb`: contains the script to performance hierarchical multi-objective optimization and plot the results
+3. `multi-objective.ipynb`: contains the script to performance weighted multi-objective optimization and plot the results
