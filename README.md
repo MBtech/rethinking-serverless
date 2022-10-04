@@ -1,8 +1,9 @@
 # Revisiting Resource Allocation for Serverless Functions
 This repo contains artifacts for the following research work
 
-    Revisiting Resource Allocation for Serverless Functions
+    With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functionss
     Authors: Muhammad Bilal, Marco Canini, Rodrigo Fonseca, Rodrigo Rodrigues
+    Eurosys 2023
 
 The artifacts contained in this repo are:
 1. Serverless benchmarks (`benchmarks` directory)
