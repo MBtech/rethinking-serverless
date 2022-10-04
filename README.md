@@ -1,4 +1,4 @@
-# Revisiting Resource Allocation for Serverless Functions
+# Rethinking Resource Allocation for Serverless Functions
 This repo contains artifacts for the following research work
 
     With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functionss
