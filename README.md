@@ -1,7 +1,7 @@
 # Rethinking Resource Allocation for Serverless Functions
 This repo contains artifacts for the following research work
 
-    With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functionss
+    With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functions
     Authors: Muhammad Bilal, Marco Canini, Rodrigo Fonseca, Rodrigo Rodrigues
     Eurosys 2023
 
